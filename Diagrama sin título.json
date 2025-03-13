@@ -1,0 +1,54 @@
+{
+  "cells": [
+    {
+      "id": "1",
+      "type": "class",
+      "position": { "x": 100, "y": 50 },
+      "size": { "width": 160, "height": 140 },
+      "attrs": {
+        "label": { "text": "Factura" },
+        "attributes": ["id: int", "fecha: datetime", "total: decimal"]
+      }
+    },
+    {
+      "id": "2",
+      "type": "class",
+      "position": { "x": 300, "y": 50 },
+      "size": { "width": 180, "height": 140 },
+      "attrs": {
+        "label": { "text": "FacturaDetalles" },
+        "attributes": ["id: int", "factura_id: int (FK)", "producto: string", "precio: decimal"]
+      }
+    },
+    {
+      "id": "3",
+      "type": "class",
+      "position": { "x": 550, "y": 50 },
+      "size": { "width": 200, "height": 180 },
+      "attrs": {
+        "label": { "text": "Instrumentos" },
+        "attributes": ["id: int", "nombre: string", "precio: decimal", "stock: int", "descripcion: string", "imagen: string"]
+      }
+    },
+    {
+      "id": "4",
+      "type": "class",
+      "position": { "x": 800, "y": 50 },
+      "size": { "width": 180, "height": 140 },
+      "attrs": {
+        "label": { "text": "Usuarios" },
+        "attributes": ["id: int", "email: string", "contraseña: string", "fecha_registro: datetime"]
+      }
+    },
+    {
+      "id": "5", "type": "edge", "source": "1", "target": "2", "attrs": { "label": { "text": "1 a N" } } 
+    },
+    {
+      "id": "6", "type": "edge", "source": "2", "target": "3", "attrs": { "label": { "text": "N a 1" } } 
+    },
+    {
+      "id": "7", "type": "edge", "source": "4", "target": "1", "attrs": { "label": { "text": "1 a N" } } 
+    }
+  ]
+}
+
