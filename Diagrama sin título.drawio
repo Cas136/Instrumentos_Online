@@ -128,7 +128,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JZjnCkg3CmXjUiEQkTg-24" value="Diagrama de secuencia&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="-JZjnCkg3CmXjUiEQkTg-24" value="&amp;nbsp;Diagrama de secuencia&amp;nbsp; Instrumentos Online" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="130" y="-80" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
