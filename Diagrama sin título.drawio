@@ -208,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kS9vBC88zHyn8X4vNAOb-33" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;Diagrama de flujo de datos&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="30" width="640" height="90" as="geometry" />
+          <mxGeometry x="240" y="30" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
