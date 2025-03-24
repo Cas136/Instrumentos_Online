@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Página-1" id="9xUEOKyPMVsF5or9rzbu">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="342" y="8" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="UsuarioNoAutenticado" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="262" y="72" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="UsuarioAutenticado" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="271" y="184" width="156" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="ExplorandoProductos" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="267" y="297" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="ProductoSeleccionado" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="169" y="409" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="CarritoLleno" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="203" y="522" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="ValidandoStock" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="193" y="652" width="124" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="PreparandoPago" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="100" y="764" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="ProcesandoPago" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="100" y="876" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="CompraFinalizada" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="8" y="989" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="73" y="1114" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="ProductoNoDisponible" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="364" y="764" width="172" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="PagoFallido" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="202" y="989" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="reintentarOcancelar" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="170" y="1101" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;;exitX=0.53;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Autenticar usuario" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Navegar por productos" style="curved=1;startArrow=none;;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Seleccionar producto" style="curved=1;startArrow=none;;exitX=0.29;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Agregar al carrito" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Proceso de validación del stock" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Producto disponible?" style="curved=1;startArrow=none;;exitX=0.24;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Confirmar compra" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Pago exitoso?" style="curved=1;startArrow=none;;exitX=0.27;exitY=1.01;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="953" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.49;entryY=0.01;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Producto no disponible" style="curved=1;startArrow=none;;exitX=0.79;exitY=0.99;entryX=0.31;entryY=0;" edge="1" parent="1" source="8" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Volver a explorar productos" style="curved=1;startArrow=none;;exitX=0.61;exitY=0;entryX=0.82;entryY=0.99;" edge="1" parent="1" source="13" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="728" />
+              <mxPoint x="502" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="Pago fallido" style="curved=1;startArrow=none;;exitX=0.73;exitY=1.01;entryX=0.49;entryY=-0.01;" edge="1" parent="1" source="10" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="953" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="Reintentar o cancelar" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="14" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
